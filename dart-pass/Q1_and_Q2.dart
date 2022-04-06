@@ -4,6 +4,9 @@ Q1
   we can't use const with it because const means that the assigned 
   value should not be changed over time or must be initialized with 
   a constant value,therfore the statement will throw a compilation error
+  
+  The right solution would be :
+  var hour = DateTime.now().hour;
 */
 
 // Q2
