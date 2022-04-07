@@ -9,8 +9,10 @@ def even_or_odd(num_of_elements):
                 even.append(n)
             else:
                 odd.append(n)
-                
+
         [print(j,"is even") for j in even]
         [print(k,"is odd") for k in odd]
+    else:
+        print("Please Enter a value between 0 and 10")
 
 even_or_odd(int(input("Enter X value: ")))
