@@ -17,15 +17,18 @@ abstract class Animal {
 
 class Dog extends Animal {
   @override
-  void printName() {}
-
+  printName() {
+    print("Dog");
+  }
   @override
   void printSound() {}
 }
 
 class Cat extends Animal {
   @override
-  void printName() {}
+  printName() {
+    print("Cat");
+  }
 
   @override
   void printSound() {}
@@ -33,7 +36,9 @@ class Cat extends Animal {
 
 class Cow extends Animal {
   @override
-  void printName() {}
+  printName() {
+    print("Cow");
+  }
 
   @override
   void printSound() {}
